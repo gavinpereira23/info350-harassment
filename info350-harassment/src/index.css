@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,241 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.nav-brand{
+    font-size: 35px !important;
+    font-family: 'Bebas Neue';
+}
+
+
+.color-nav{
+    background-color: #61B6DA;
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
+
+h2{
+    font-family: system-ui;
+    font-size: 25px !important;
+    color: #238CB9;
+}
+
+h3{
+    font-size: 18px !important;
+}
+
+
+
+.body{
+    padding-top:100px;
+    background-color: #E5F7FF !important;
+}
+
+
+.col.black{
+    border-radius: 9px;
+    background-color: #ccc;
+}
+
+
+
+.nav-text{
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+a{
+    color: #238CB9 !important;
+}
+
+a:hover{
+    color: #E3DDFF !important;
+}
+
+a.nav-text-color{
+    color: #000 !important;
+}
+
+a.nav-text-color:hover{
+    color: #E3DDFF !important;
+}
+
+
+
+.postBox{
+    border-radius: 9px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #61B6DA;
+    margin-bottom: 10px;
+}
+
+.prof-img-holder{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+.post{
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+
+.tag{
+    background-color: #E5F7FF;
+    width: fit-content;
+    margin-right: 3px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.post-border{
+    border-top: 2px dashed #61B6DA;
+}
+
+
+
+
+.topPost{
+    border-top-style: solid !important;
+    background-color: #000 !important;
+}
+
+.topUsersBox{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #61B6DA;
+    background-color: #fff;
+}
+
+
+.box-title{
+    text-align: center;
+}
+
+.hotQuestions{
+    color: #61B6DA;
+    margin-left: 15px;
+}
+
+.greyed{
+    color: #bbb;
+    text-align: left;
+    margin-bottom: 7px !important;
+}
+
+.topUsersBox>p{
+    margin-bottom: 0;
+}
+
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #61B6DA;
+  max-width: 30px;
+  color: #FF8989;
+  font-weight: bold;
+}
+input:focus {
+  border-color: #E3DDFF;
+}
+
+
+.big-bold{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+
+}
+span{
+    color: #FF8989;
+}
+
+
+.htypes{
+    width: fit-content !important;
+    margin-right: 3px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
+
+.htypes-red{
+    color: red;
+    background-color: #FFDDDD;
+}
+
+.htypes-blue{
+    color: #0096D7;
+    background-color: #DDF3FF;
+}
+
+.htypes-green{
+    color: #C5D700;
+    background-color: #F8FFDD;
+}
+
+.htypes-orange{
+    color: #D76700;
+    background-color: #FFEDDD;
+}
+
+
+.htypes-purple{
+    color: #D200D7;
+    background-color: #E3DDFF;
+}
+
+
+.statBox{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    max-width: fit-content;
+}
+
+
+.btn-style{
+    max-width: fit-content !important;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+.welcomeBox{
+    background-color: #fff !important;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+
+.blueText{
+    color: #238CB9 !important;
 }
